@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- aztion - recebe o endereço do arquivo/ página para onde os dados serão enviados -->
+    <form action="#" method="post">
+        <!-- 1 Formulário -->
+        <label for="name">Nome</label>
+        <input type="text" name="name" id="name" placeholder="Nome e sobrenome" maxlength="30" required autofocus>
+        <!-- maxLaegth = VARCHAR(30) Modelagem BD-->
+        <br><br>
+        <!-- E-mail -->
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" maxlength="1" placeholder="email@gmal.com" required autocomplete>
+        <!-- autocomplete: Quando o usuário preenche o campo e envia o formulário, os dados ficam salvos; assim, caso ele queira enviar o formulário novamente, não é necessário redigitar todos os dados. -->
+        <br><br>
+
+        <!-- Telefone -->
+        <label for="tel">Telefone</label>
+        <input type="tel" name="tel" id="tel" maxlength="11" required autocomplete="on" placeholder="(XX) XXXX-XXXX">
+        <br><br>
+
+        <!-- Currículo -->
+        <label for="curriculum">Currículo</label>
+        <input type="file" name="curriculum" id="curriculum">
+        <br><br>
+
+        <!-- Mensagem -->
+        <label for="message">Mensagem</label>
+        <textarea name="message" id="message" cols="20" rows="5" maxlength="200" placeholder="Digite aqui sua  mensagem" required></textarea>
+    </form>
+</body>
+</html>
