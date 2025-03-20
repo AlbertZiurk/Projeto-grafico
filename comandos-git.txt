@@ -1,0 +1,15 @@
+dir - (lista os diretórios da raiz)
+
+cd ~ (retorna
+
+mkdir - cria uma pasta
+rmdir - remove pasta
+rm -d - remove arquivo e pasta
+mr -r - remove pasta com conteúdo
+
+filtros diferentes
+dir - tabela os diretórios 
+ls - lista os diretórios 
+
+mv "raiz do arquivo" "raiz da nova pasta"
+
