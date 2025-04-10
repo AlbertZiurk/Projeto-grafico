@@ -1,3 +1,5 @@
+# Comandos Git e Terminal
+
 dir - (lista os diretórios da raiz)
 
 cd ~ (retorna
@@ -13,3 +15,37 @@ ls - lista os diretórios
 
 mv "raiz do arquivo" "raiz da nova pasta"
 
+
+git init -> inicializa repositório local
+
+git clone GITHUB-URL -> clona repositório remoto
+
+git config list -> lista as configurações
+git config --global user.name -> configura nome de usuário
+git config --global user.email -> configura email do usuário
+
+git remote add origin GITHUB_URL -> adiciona endereço do repositório remoto
+
+git remote set-url origin nova-url -> altera url de repositório remoto 
+
+git pull origin nomeBranch -> atualiza repositório local
+
+git branch -> lista branches
+
+git branch nome-branch -> cria branch
+
+git branch -m -> renomeia branch
+
+git checkout -b nome-branch -> cria branch e coloca o terminal na branch especificada
+
+git checkout nome-branch -> muda repositório local pra branch especificada
+
+git add nome-arquivo.extensao -> adiciona arquivo na área de staging
+git add . -> define arquivos/pastas como staging
+git commit -m  "Descrição" ->  registra arquivos/pastas em estado de unstaged
+git commit --amend "Descricao" -> altera último commit efetuado
+
+git pull --allow-unrelated-histories -> atualiza o histório do repositório local, permitindo o merge entre branches em conflito
+
+git push -u origin nomeBranch -> manda as alterações do repositório local para o repositório remoto
+-f -> força execução de comando
